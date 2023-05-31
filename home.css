@@ -121,3 +121,44 @@ footer{
     text-align: center;
     padding-bottom: 20px;
 }
+
+/*diseño responsiva*/
+
+@media screen and (max-width: 480px) {
+    .titulo {
+        font-size: 40px;
+       margin-left: 25%;
+    }
+
+   #informacionSalida{
+      margin-left:2em;
+      margin-top:2em;
+    }
+
+    #bot-incriptar{
+        margin-top:2em;
+        margin-left:5em;
+        padding:2.3em;
+    }
+  
+    #bot-copiar{
+        margin-left:10em;
+        margin-top:2em;
+    }
+
+    footer{
+    background-color:white;
+    }
+
+    .derechos{
+    margin-left:2.5em;
+    color:silver;
+    }
+
+    .derechos-fecha{
+    margin-left:2.5em;
+    margin-top:1em;
+    color:silver;
+    }
+}
+
