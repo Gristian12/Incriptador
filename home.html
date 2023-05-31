@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Incriptador</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="reset.css">
+    <script type="text/javascript" src="funcionamiento.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Prompt:wght@300;400&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <!--Area del titulo-->
+    <p class="titulo"> Incriptador</p>
+</header>
+
+<body>
+ 
+    <Section>
+        <!--Area de los textos de entrada y salida-->
+        <textarea id="informacionEntrada" cols="30" rows="10" required placeholder="Texto que desees incriptar"></textarea>
+        <textarea name="resutado" id="informacionSalida" cols="30" rows="10" required placeholder="Texto incriptado
+        "></textarea>
+    </Section>
+
+    <section>
+
+        <!--Area del botton de incriptar-->
+            <button id="bot-incriptar">Incriptar</button>
+            <script>
+                    var btn = document.querySelector("#bot-incriptar");
+                    btn.onclick = encripta;
+            </script>
+    
+        <!--Area del botton de desincriptar-->
+        <button id="bot-desincriptar">Desincriptar</button>
+        <script>
+            var btn2 = document.querySelector("#bot-desincriptar");
+            btn2.onclick = desincripatar;
+        </script>
+    
+        <!--Area del botton de copiar-->
+        <button id="bot-copiar">Copiar</button>
+        <script>
+            var btn3 = document.querySelector("#bot-copiar");
+            btn3.onclick = copiar;
+        </script>
+        </div>
+            
+    </section>
+
+</body>
+
+<footer>
+    <p class="derechos"> Este es un proyecto independiente y todos los derechos estan reservados por Cristian Morales Vargas </p>
+    <p class="derechos-fecha"> &copy;2023</p>
+</footer>

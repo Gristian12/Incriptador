@@ -1,0 +1,123 @@
+body{
+    flex: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #12CDD4;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    color: white;
+    border-color: black;
+    border-width: 2px;
+}
+
+#informacionEntrada{
+    margin-top: 50px;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 7%;
+    font-size: 20px;
+    background-color: #CEE741;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+#informacionSalida{
+   padding: 5%;
+   font-size: 20px;
+   background-color: #CEE741;
+   border-radius: 15px;
+   text-align: justify;
+}
+
+
+/*este es el area en el que se aplica los estilos a los botones*/
+
+#bot-incriptar{
+    padding: 35px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #CEE741;
+    border-radius: 15px;
+    border: none;
+    margin-left: 15%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#bot-incriptar:hover{
+    transform: scale(1.2);
+    background-color: #12CDD4;
+}
+
+#bot-desincriptar{
+    padding: 35px;
+    background-color: #CEE741;
+    border-radius: 15px;
+    border: none;
+    margin-left: 5%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#bot-desincriptar:hover{
+    transform: scale(1.2);
+    background-color: #12CDD4;
+}
+
+#bot-copiar{
+    padding: 35px;
+    background-color: #CEE741;
+    border-radius: 15px;
+    border: none;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#bot-copiar:hover{
+    transform: scale(1.2);
+    background-color: #12CDD4;
+}
+
+
+
+/*esta es la parte del footer*/
+
+footer{
+    background-color: #12CDD4;
+}
+
+.derechos{
+    padding-top: 12px;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.derechos-fecha{
+    text-align: center;
+    padding-bottom: 20px;
+}
